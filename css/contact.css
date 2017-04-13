@@ -1,0 +1,140 @@
+/* NAVIGATION STYLING*/
+
+#nav {
+  font-family: 'Montserrat', sans-serif;
+  height: 45px;
+  background: black; // Transparent initial setting
+  display: block;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+  border: 0px;
+
+}
+
+#logoBrand {
+  height: 145%;
+  margin: inherit;
+}
+
+#logoLinks {
+  color: #fff;
+  padding: 10px;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: inherit;
+  font-size: 18px;
+}
+
+.navbar-default .navbar-brand {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+/* END NAVIGATION STYLING*/
+
+/* CONTENT STYLING */
+
+.parallax{
+  /*IMAGE*/
+  background-image: url('../img/pageImages/tech.jpg');
+
+  /* Full height */
+  height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax > h1 {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  color: #1695A3;
+  position: absolute;
+  bottom: 0;
+  padding:10px 20px;
+  height: 500px;
+  width:100%;
+  text-align:center;
+  font-weight: bold;
+}
+
+.parallax > h2 {
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  color: #F3FFE2;
+  position: absolute;
+  bottom: 0;
+  padding:10px 20px;
+  height: 450px;
+  width:100%;
+  text-align:center;
+  font-weight: bold;
+}
+
+
+/* END CONTENT STYLING*/
+
+
+
+/* FOOTER STYLING */
+
+.footerStyle{
+  background-color: black;
+}
+
+#spacing{
+  padding-left: 305px;
+  padding-right: 5px;
+}
+
+#footerSpacing {
+
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#footerHeading{
+
+  margin-left: 5px;
+  color: white;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+#socialIcons{
+
+  color: white;
+  margin: 5px;
+}
+
+#socialIcons:hover {
+  text-decoration: none;
+}
+
+#footerLinks {
+  margin-left: 5px;
+  color: white;
+}
+
+#footerLinks:link {
+    text-decoration: none;
+    color: white;
+}
+
+#footerLinks:hover {
+    text-decoration: none;
+    color: pink;
+}
+
+
+/* END FOOTER STYLING*/

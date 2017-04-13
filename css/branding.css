@@ -1,0 +1,157 @@
+/* NAVIGATION STYLING*/
+
+#nav {
+  font-family: 'Montserrat', sans-serif;
+  height: 100px;
+  background: transparent; // Transparent initial setting
+  display: block;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+  border: 0px;
+}
+
+#logoBrand {
+  height: 230%;
+  margin-top: 50px;
+  transition: all ease .5s;
+}
+
+#logoLinks {
+  color: #fff;
+  padding: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: inherit;
+  font-size: 18px;
+  transition: all ease .5s;
+}
+
+#nav.shrink {
+  height: 45px;
+  transition: all ease .5s;
+  background: black; // Change background
+}
+
+#nav.shrink #logoLinks {
+  padding: 10px;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: inherit;
+  transition: all ease .5s;
+}
+
+#nav.shrink #logoBrand {
+  height: 145%;
+  margin: inherit;
+  transition: all ease .5s;
+}
+
+
+.navbar-default .navbar-brand {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+/* END NAVIGATION STYLING*/
+
+/* HEADER STYLING */
+
+#night {
+background-image: url('../img/stock.jpg');
+background-size: cover;
+background-position: center center;
+position: relative;
+top: 0;
+bottom: 0;
+height: 100vh;
+z-index: -10;
+}
+
+#night-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+  background-color: rgba(0, 0, 0, 0.25);
+
+}
+
+#headerText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  color: white;
+  position:absolute;
+  height: 350px;
+  bottom:0;
+  padding:10px 20px;
+  width:100%;
+  text-align:center;
+}
+
+#highlight {
+  color: #9AE100;
+}
+
+/* END HEADER STYLING */
+
+
+
+/* FOOTER STYLING */
+
+.footerStyle{
+  background-color: black;
+}
+
+#spacing{
+  padding-left: 305px;
+  padding-right: 5px;
+}
+
+#footerSpacing {
+
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#footerHeading{
+
+  margin-left: 5px;
+  color: white;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+#socialIcons{
+
+  color: white;
+  margin: 5px;
+}
+
+#socialIcons:hover {
+  text-decoration: none;
+}
+
+#footerLinks {
+  margin-left: 5px;
+  color: white;
+}
+
+#footerLinks:link {
+    text-decoration: none;
+    color: white;
+}
+
+#footerLinks:hover {
+    text-decoration: none;
+    color: pink;
+}
+
+
+/* END FOOTER STYLING*/

@@ -1,0 +1,238 @@
+/* Colors
+
+color1: #13140F
+color2: #D4FF00
+color3: #E4FFE6
+color4: #68776C
+color5: #00D6DD
+
+*/
+
+/* Font
+Navbar and center text: Montserrat
+
+Headings: Montserrat
+Parragraphs: Raleway
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+
+
+strong {
+  color: black;
+}
+
+h1, h4 {
+font-family: 'Montserrat', sans-serif;
+}
+
+p{
+
+font-family: 'Raleway', sans-serif;
+
+}
+
+.navbar-default .navbar-brand {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.img-rounded {
+  margin: 10px;
+}
+
+
+/* PRODUCT ANIMATIONS */
+
+.firstAnimation {
+
+    width: 160px;
+    height: 140px;
+    animation-name: firstMove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes firstMove {
+0% { transform: none;}
+50% {transform: translateY(20px);}
+}
+
+.secondAnimation {
+
+    width: 160px;
+    height: 140px;
+    animation-name: secondMove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes secondMove {
+0% {transform: none;}
+50% {transform: scale(1.1,1.1);}
+}
+
+/* END PRODUCT ANIMATIONS */
+
+
+
+.footerStyle{
+  background-color: black;
+}
+
+#heading{
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+}
+
+#mainHeader {
+  text-align: center;
+  font-family: inherit;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+#imageDisplay {
+  text-align: center;
+  padding: 20px;
+}
+
+#night {
+background-image: url('../img/computational.jpg');
+background-size: cover;
+background-position: center center;
+position: relative;
+top: 0;
+bottom: 0;
+height: 100vh;
+z-index: -10;
+}
+
+#night-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+  background-color: rgba(0, 0, 0, 0.25);
+
+}
+
+#nav {
+  font-family: 'Montserrat', sans-serif;
+  height: 100px;
+  background: transparent; // Transparent initial setting
+  display: block;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all ease .5s;
+  border: 0px;
+}
+
+#logoLinks {
+  color: #fff;
+  padding: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  margin: inherit;
+  font-size: 18px;
+  transition: all ease .5s;
+}
+
+#logoBrand {
+  height: 230%;
+  margin-top: 50px;
+  transition: all ease .5s;
+}
+
+#nav.shrink {
+  height: 45px;
+  transition: all ease .5s;
+  background: black; // Change background
+}
+
+#nav.shrink #logoLinks {
+  padding: 10px;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: inherit;
+  transition: all ease .5s;
+}
+
+#nav.shrink #logoBrand {
+  height: 145%;
+  margin: inherit;
+  transition: all ease .5s;
+}
+
+#mainText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  color: white;
+  position:absolute;
+  height: 350px;
+  bottom:0;
+  padding:10px 20px;
+  width:100%;
+  text-align:center;
+}
+
+#spacing{
+  padding-left: 305px;
+  padding-right: 5px;
+}
+
+#footerHeading{
+
+  margin-left: 5px;
+  color: white;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+#socialIcons{
+
+  color: white;
+  margin: 5px;
+}
+
+#socialIcons:hover {
+  text-decoration: none;
+}
+
+#coreServices{
+
+  margin-bottom: 50px;
+}
+
+#footerLinks {
+  margin-left: 5px;
+  color: white;
+}
+
+#footerLinks:link {
+    text-decoration: none;
+    color: white;
+}
+
+#footerLinks:hover {
+    text-decoration: none;
+    color: pink;
+}
+
+#footerSpacing {
+
+  padding-left: 0;
+  padding-right: 0;
+}
